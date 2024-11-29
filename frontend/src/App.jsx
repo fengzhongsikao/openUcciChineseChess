@@ -22,7 +22,7 @@ function App() {
         const ctx = canvas.getContext('2d');
 
         ctx.fillStyle='#E4A751';
-
+        ctx.fillRect(0, 0, width, height);
 
 
         // 画横线
@@ -74,7 +74,10 @@ function App() {
         drawRiceLeft(W/2+(verticalLine-1)*temp,W/2+3*W,ctx);
         drawRiceLeft(W/2+(verticalLine-1)*temp,W/2+6*W,ctx);
 
-        ctx.fillText("楚河",width/2,height/2);
+        ctx.fillStyle = '#000000';
+        ctx.font="30px Microsoft YaHei";
+        ctx.fillText("楚河",2*temp-W/5,5*temp+W/5);
+        ctx.fillText("汉界",6*temp-W/5,5*temp+W/5);
         ctx.stroke();
 
 
