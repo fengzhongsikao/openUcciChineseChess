@@ -1,0 +1,167 @@
+/*红车*/
+.redRook1 {
+    background: url('@/assets/images/棋子.png') no-repeat -340px -717px;
+    position: absolute;
+    top: 680px;
+    left: 2px;
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redRook2 {
+    background: url('@/assets/images/棋子.png') no-repeat -340px -717px;
+    position: absolute;
+    top: 680px;
+    left: calc(86px + 72 * 7px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+/*红马*/
+.redHorse1 {
+    background: url('@/assets/images/棋子.png') no-repeat -340px -823px;
+    position: absolute;
+    top: 680px;
+    left: 81px;
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redHorse2 {
+    background: url('@/assets/images/棋子.png') no-repeat -340px -823px;
+    position: absolute;
+    top: 680px;
+    left: calc(86px + 72 * 6px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+/*红象*/
+.redElephant1 {
+    background: url('@/assets/images/棋子.png') no-repeat -919px -382px;
+    position: absolute;
+    top: 680px;
+    left: calc(78 * 2px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 86px;
+}
+
+.redElephant2 {
+    background: url('@/assets/images/棋子.png') no-repeat -919px -382px;
+    position: absolute;
+    top: 680px;
+    left: calc(86px + 72 * 5px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 86px;
+}
+
+/*红仕*/
+.redAdvisor1 {
+    background: url('@/assets/images/棋子.png') no-repeat -836px -468px;
+    position: absolute;
+    top: 680px;
+    left: calc(86px + 70 * 2px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 85px;
+}
+
+.redAdvisor2 {
+    background: url('@/assets/images/棋子.png') no-repeat -836px -468px;
+    position: absolute;
+    top: 680px;
+    left: calc(86px + 72 * 4px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 85px;
+}
+
+/*红帅*/
+.redKing {
+    background: url('@/assets/images/棋子.png') no-repeat -510px -401px;
+    position: absolute;
+    top: 680px;
+    left: calc(76 * 4px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 85px;
+}
+
+
+/*红炮*/
+.redCannon1 {
+    background: url('@/assets/images/棋子.png') no-repeat -601px -189px;
+    position: absolute;
+    top: 530px;
+    left: 81px;
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redCannon2 {
+    background: url('@/assets/images/棋子.png') no-repeat -601px -189px;
+    position: absolute;
+    top: 530px;
+    left: calc(86px + 72 * 6px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+/*红兵*/
+.redPawn1 {
+    background: url('@/assets/images/棋子.png') no-repeat -862px -189px;
+    position: absolute;
+    top: 460px;
+    left: 5px;
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redPawn2 {
+    background: url('@/assets/images/棋子.png') no-repeat -862px -189px;
+    position: absolute;
+    top: 460px;
+    left: calc(78 * 2px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redPawn3 {
+    background: url('@/assets/images/棋子.png') no-repeat -862px -189px;
+    position: absolute;
+    top: 460px;
+    left: calc(76 * 4px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redPawn4 {
+    background: url('@/assets/images/棋子.png') no-repeat -862px -189px;
+    position: absolute;
+    top: 460px;
+    left: calc(86px + 72 * 5px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}
+
+.redPawn5 {
+    background: url('@/assets/images/棋子.png') no-repeat -862px -189px;
+    position: absolute;
+    top: 460px;
+    left: calc(86px + 72 * 7px);
+    transform: scale(0.8);
+    width: 81px;
+    height: 105px;
+}

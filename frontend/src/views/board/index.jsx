@@ -1,15 +1,45 @@
 import board from "@/assets/images/棋盘.png";
 import "./index.css";
+import "@/views/pieces/red/index.jsx"
+import allPieces1 from "@/views/pieces/red/index.jsx";
+import allPieces2 from "@/views/pieces/black/index.jsx";
 function Board(){
-
     return (
-        <div>
-            <img
-                width="688px"
-                height="800px"
-                src={board}
-                alt="象棋棋盘图片"
-            />
+        <div className={"boardStyle"}>
+                <allPieces1.RedRook1></allPieces1.RedRook1>
+                <allPieces1.RedRook2></allPieces1.RedRook2>
+                <allPieces1.RedHorse1></allPieces1.RedHorse1>
+                <allPieces1.RedHorse2></allPieces1.RedHorse2>
+                <allPieces1.RedElephant1></allPieces1.RedElephant1>
+                <allPieces1.RedElephant2></allPieces1.RedElephant2>
+                <allPieces1.RedAdvisor1></allPieces1.RedAdvisor1>
+                <allPieces1.RedAdvisor2></allPieces1.RedAdvisor2>
+                <allPieces1.RedKing></allPieces1.RedKing>
+                <allPieces1.RedCannon1></allPieces1.RedCannon1>
+                <allPieces1.RedCannon2></allPieces1.RedCannon2>
+                <allPieces1.RedPawn1></allPieces1.RedPawn1>
+                <allPieces1.RedPawn2></allPieces1.RedPawn2>
+                <allPieces1.RedPawn3></allPieces1.RedPawn3>
+                <allPieces1.RedPawn4></allPieces1.RedPawn4>
+                <allPieces1.RedPawn5></allPieces1.RedPawn5>
+
+
+                <allPieces2.BlackRook1></allPieces2.BlackRook1>
+                <allPieces2.BlackRook2></allPieces2.BlackRook2>
+                <allPieces2.BlackHorse1></allPieces2.BlackHorse1>
+                <allPieces2.BlackHorse2></allPieces2.BlackHorse2>
+                <allPieces2.BlackElephant1></allPieces2.BlackElephant1>
+                <allPieces2.BlackElephant2></allPieces2.BlackElephant2>
+                <allPieces2.BlackAdvisor1></allPieces2.BlackAdvisor1>
+                <allPieces2.BlackAdvisor2></allPieces2.BlackAdvisor2>
+                <allPieces2.BlackKing></allPieces2.BlackKing>
+                <allPieces2.BlackCannon1></allPieces2.BlackCannon1>
+                <allPieces2.BlackCannon2></allPieces2.BlackCannon2>
+                <allPieces2.BlackPawn1></allPieces2.BlackPawn1>
+                <allPieces2.BlackPawn2></allPieces2.BlackPawn2>
+                <allPieces2.BlackPawn3></allPieces2.BlackPawn3>
+                <allPieces2.BlackPawn4></allPieces2.BlackPawn4>
+                <allPieces2.BlackPawn5></allPieces2.BlackPawn5>
         </div>
     )
 }
