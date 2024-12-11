@@ -3,7 +3,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -294px;
     position: absolute;
     left: 2px;
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -12,7 +12,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -294px;
     position: absolute;
     left: calc(86px + 72 * 7px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -22,7 +22,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -189px;
     position: absolute;
     left: 81px;
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 104px;
 }
@@ -31,7 +31,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -189px;
     position: absolute;
     left: calc(86px + 72 * 6px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 104px;
 }
@@ -41,7 +41,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -514px -189px;
     position: absolute;
     left: calc(78 * 2px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -50,7 +50,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -514px -189px;
     position: absolute;
     left: calc(86px + 72 * 5px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -60,7 +60,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -400px;
     position: absolute;
     left: calc(86px + 70 * 2px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -69,7 +69,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -340px -400px;
     position: absolute;
     left: calc(86px + 72 * 4px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -79,7 +79,7 @@
     background: url('@/assets/images/棋子.png') no-repeat -688px -189px;
     position: absolute;
     left: calc(76 * 4px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 85px;
 }
@@ -91,7 +91,7 @@
     position: absolute;
     top: 160px;
     left: 81px;
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -101,7 +101,7 @@
     position: absolute;
     top: 160px;
     left: calc(86px + 72 * 6px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -112,7 +112,7 @@
     position: absolute;
     top: 230px;
     left: 5px;
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -122,7 +122,7 @@
     position: absolute;
     top: 230px;
     left: calc(78 * 2px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -132,7 +132,7 @@
     position: absolute;
     top: 230px;
     left: calc(76 * 4px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -142,7 +142,7 @@
     position: absolute;
     top: 230px;
     left: calc(86px + 72 * 5px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }
@@ -152,7 +152,7 @@
     position: absolute;
     top: 230px;
     left: calc(86px + 72 * 7px);
-    transform: scale(0.8);
+    transform: scale(0.7);
     width: 81px;
     height: 105px;
 }

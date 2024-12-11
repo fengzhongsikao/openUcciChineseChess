@@ -1,9 +1,10 @@
 package dialog
+
 import (
 	"context"
+
 	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
-
 
 func OnDomReady(ctx context.Context) {
 	runtime.EventsOn(ctx, "MessageDialogJs", func(optionalData ...interface{}) {
@@ -15,6 +16,14 @@ func OnDomReady(ctx context.Context) {
 			DefaultButton: "确定",
 			CancelButton:  "取消",
 		})
+
+	})
+}
+
+func Test1(ctx context.Context) {
+	runtime.EventsOn(ctx, "testJs", func(optionalData ...interface{}) {
+		println("name--------------%s-----", optionalData)
+
 
 	})
 }

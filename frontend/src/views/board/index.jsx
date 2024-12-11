@@ -1,6 +1,6 @@
 import "./index.css";
-import allPieces1 from "@/views/pieces/red/index.jsx";
-import allPieces2 from "@/views/pieces/black/index.jsx";
+import allPieces1 from "../pieces/red/index.jsx";
+import allPieces2 from "../pieces/black/index.jsx";
 function Board() {
 
     // function pop() {
