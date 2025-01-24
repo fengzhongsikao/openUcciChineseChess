@@ -19,11 +19,3 @@ func OnDomReady(ctx context.Context) {
 
 	})
 }
-
-func Test1(ctx context.Context) {
-	runtime.EventsOn(ctx, "testJs", func(optionalData ...interface{}) {
-		println("name--------------%s-----", optionalData)
-
-
-	})
-}

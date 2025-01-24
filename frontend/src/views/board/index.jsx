@@ -1,17 +1,32 @@
 import "./index.css";
 import allPieces1 from "../pieces/red/index.jsx";
 import allPieces2 from "../pieces/black/index.jsx";
+import { useEffect, useRef } from "react";
 function Board() {
 
+    // const parentRef = useRef(null);
+
+    // const parentRect = parentRef.current.getBoundingClientRect();
+
+
+    // const handleClick = () => {
+    //     console.log(parentRef.current);
+    // }
+
     // function pop() {
-    //     console.log("asasas");
     //     // window.runtime.EventsOn("PopMessage", () => { });
     //
     //     window.runtime.EventsEmit("MessageDialogJs", "");
     //     //   <button onClick={pop}></button>
     // }
     return (
-        <div className={"boardStyle"}>
+        <div className={"boardStyle"} ref={(dom) => {
+            console.log("asasas")
+            // console.log(dom.current());
+
+            // dom.style.backgroundColor = "red";
+        }
+        } >
             <allPieces1.RedRook1></allPieces1.RedRook1>
             <allPieces1.RedRook2></allPieces1.RedRook2>
             <allPieces1.RedHorse1></allPieces1.RedHorse1>

@@ -7,6 +7,8 @@ import redStyle from "./style.js";
 const handleClick = (event) => {
     // 调用onMove函数，传递新的位置信息
     console.log(event.target.getBoundingClientRect());
+    console.log(event.target.getBoundingClientRect().left);
+    console.log(event.target.getBoundingClientRect().top);
 
 };
 // 红车

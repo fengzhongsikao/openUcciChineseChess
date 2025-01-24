@@ -83,9 +83,6 @@ const redPawn5Style = {
 }
 
 
-
-
-
 const redStyle = {
     redRook1Style,
     redRook2Style,
