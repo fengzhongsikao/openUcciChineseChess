@@ -1,17 +1,19 @@
 import "./index.css";
 
+
+import blackStyle from "./style.js";
 // 红车
  function BlackRook1(){
     return (
         <div>
-            <img className={"blackRook1"}  alt=""/>
+            <img className={"blackRook1"}  alt="" style={blackStyle.blackRook1} />
         </div>
     )
 }
  function BlackRook2(){
     return (
         <div>
-            <img className={"blackRook2"}  alt=""/>
+            <img className={"blackRook2"}  alt="" style={blackStyle.blackRook2}/>
         </div>
     )
 }
@@ -20,14 +22,14 @@ import "./index.css";
  function BlackHorse1(){
     return (
         <div>
-            <img className={"blackHorse1"}  alt=""/>
+            <img className={"blackHorse1"}  alt="" style={blackStyle.blackHorse1}/>
         </div>
     )
 }
  function BlackHorse2(){
     return (
         <div>
-            <img className={"blackHorse2"}  alt=""/>
+            <img className={"blackHorse2"}  alt="" style={blackStyle.blackHorse2}/>
         </div>
     )
 }
@@ -35,7 +37,7 @@ import "./index.css";
  function BlackElephant1(){
     return (
         <div>
-            <img className={"blackElephant1"}  alt=""/>
+            <img className={"blackElephant1"}  alt="" style={blackStyle.blackElephant1}/>
         </div>
     )
 }
@@ -44,7 +46,7 @@ import "./index.css";
  function BlackElephant2(){
     return (
         <div>
-            <img className={"blackElephant2"}  alt=""/>
+            <img className={"blackElephant2"}  alt="" style={blackStyle.blackElephant2}/>
         </div>
     )
 }
@@ -53,7 +55,7 @@ import "./index.css";
  function BlackAdvisor1(){
     return (
         <div>
-            <img className={"blackAdvisor1"}  alt=""/>
+            <img className={"blackAdvisor1"}  alt="" style={blackStyle.blackAdvisor1}/>
         </div>
     )
 }
@@ -61,7 +63,7 @@ import "./index.css";
  function BlackAdvisor2(){
     return (
         <div>
-            <img className={"blackAdvisor2"}  alt=""/>
+            <img className={"blackAdvisor2"}  alt="" style={blackStyle.blackAdvisor2} />
         </div>
     )
 }
@@ -70,7 +72,7 @@ import "./index.css";
  function BlackKing(){
     return (
         <div>
-            <img className={"blackKing"}  alt=""/>
+            <img className={"blackKing"}  alt="" style={blackStyle.blackKing} />
         </div>
     )
 }
@@ -78,7 +80,7 @@ import "./index.css";
  function BlackCannon1(){
     return (
         <div>
-            <img className={"blackCannon1"}  alt=""/>
+            <img className={"blackCannon1"}  alt="" style={blackStyle.blackCannon1}/>
         </div>
     )
 }
@@ -87,7 +89,7 @@ import "./index.css";
  function BlackCannon2(){
     return (
         <div>
-            <img className={"blackCannon2"}  alt=""/>
+            <img className={"blackCannon2"}  alt="" style={blackStyle.blackCannon2}/>
         </div>
     )
 }
@@ -95,7 +97,7 @@ import "./index.css";
  function BlackPawn1(){
     return (
         <div>
-            <img className={"blackPawn1"}  alt=""/>
+            <img className={"blackPawn1"}  alt="" style={blackStyle.blackPawn1}/>
         </div>
     )
 }
@@ -103,28 +105,28 @@ import "./index.css";
  function BlackPawn2(){
     return (
         <div>
-            <img className={"blackPawn2"}  alt=""/>
+            <img className={"blackPawn2"}  alt="" style={blackStyle.blackPawn2}/>
         </div>
     )
 }
  function BlackPawn3(){
     return (
         <div>
-            <img className={"blackPawn3"}  alt=""/>
+            <img className={"blackPawn3"}  alt="" style={blackStyle.blackPawn3}/>
         </div>
     )
 }
  function BlackPawn4(){
     return (
         <div>
-            <img className={"blackPawn4"}  alt=""/>
+            <img className={"blackPawn4"}  alt="" style={blackStyle.blackPawn4} />
         </div>
     )
 }
  function BlackPawn5(){
     return (
         <div>
-            <img className={"blackPawn5"}  alt=""/>
+            <img className={"blackPawn5"}  alt="" style={blackStyle.blackPawn5}/>
         </div>
     )
 }

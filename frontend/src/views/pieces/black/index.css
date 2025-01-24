@@ -2,7 +2,6 @@
 .blackRook1 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -294px;
     position: absolute;
-    left: 2px;
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -11,7 +10,6 @@
 .blackRook2 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -294px;
     position: absolute;
-    left: calc(86px + 72 * 7px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -21,7 +19,6 @@
 .blackHorse1 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -189px;
     position: absolute;
-    left: 81px;
     transform: scale(0.7);
     width: 81px;
     height: 104px;
@@ -30,7 +27,6 @@
 .blackHorse2 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -189px;
     position: absolute;
-    left: calc(86px + 72 * 6px);
     transform: scale(0.7);
     width: 81px;
     height: 104px;
@@ -40,7 +36,6 @@
 .blackElephant1 {
     background: url('@/assets/images/棋子.png') no-repeat -514px -189px;
     position: absolute;
-    left: calc(78 * 2px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -49,7 +44,6 @@
 .blackElephant2 {
     background: url('@/assets/images/棋子.png') no-repeat -514px -189px;
     position: absolute;
-    left: calc(86px + 72 * 5px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -59,7 +53,6 @@
 .blackAdvisor1 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -400px;
     position: absolute;
-    left: calc(86px + 70 * 2px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -68,7 +61,6 @@
 .blackAdvisor2 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -400px;
     position: absolute;
-    left: calc(86px + 72 * 4px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -78,7 +70,6 @@
 .blackKing {
     background: url('@/assets/images/棋子.png') no-repeat -688px -189px;
     position: absolute;
-    left: calc(76 * 4px);
     transform: scale(0.7);
     width: 81px;
     height: 85px;
@@ -89,8 +80,6 @@
 .blackCannon1 {
     background: url('@/assets/images/棋子.png') no-repeat -427px -295px;
     position: absolute;
-    top: 160px;
-    left: 81px;
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -99,8 +88,6 @@
 .blackCannon2 {
     background: url('@/assets/images/棋子.png') no-repeat -427px -295px;
     position: absolute;
-    top: 160px;
-    left: calc(86px + 72 * 6px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -110,8 +97,6 @@
 .blackPawn1 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -506px;
     position: absolute;
-    top: 230px;
-    left: 5px;
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -120,8 +105,6 @@
 .blackPawn2 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -506px;
     position: absolute;
-    top: 230px;
-    left: calc(78 * 2px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -140,8 +123,6 @@
 .blackPawn4 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -506px;
     position: absolute;
-    top: 230px;
-    left: calc(86px + 72 * 5px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
@@ -150,8 +131,6 @@
 .blackPawn5 {
     background: url('@/assets/images/棋子.png') no-repeat -340px -506px;
     position: absolute;
-    top: 230px;
-    left: calc(86px + 72 * 7px);
     transform: scale(0.7);
     width: 81px;
     height: 105px;
