@@ -6,15 +6,17 @@ import redStyle from "./style.js";
 
 const handleClick = (event) => {
     // 调用onMove函数，传递新的位置信息
-    console.log(event.target.getBoundingClientRect());
-    console.log(event.target.getBoundingClientRect().left);
-    console.log(event.target.getBoundingClientRect().top);
+    // console.log(event.target.getBoundingClientRect());
+    // console.log(event.target.getBoundingClientRect().left);
+    // console.log(event.target.getBoundingClientRect().top);
 
 };
+const [backgroundColor, setBackgroundColor] = useState("transparent");
 // 红车
 function RedRook1() {
     return (
-        <img alt="" onClick={handleClick} className={"redRook1"} style={redStyle.redRook1} />
+        <img alt="" className={"redRook1"} 
+        style={redStyle.redRook1} />
     )
 }
 function RedRook2() {

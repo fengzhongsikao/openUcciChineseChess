@@ -21,11 +21,11 @@ function Board() {
     // }
     return (
         <div className={"boardStyle"} ref={(dom) => {
-            console.log("asasas")
+            // console.log("asasas")
             // console.log(dom.current());
 
             // dom.style.backgroundColor = "red";
-        }
+           }
         } >
             <allPieces1.RedRook1></allPieces1.RedRook1>
             <allPieces1.RedRook2></allPieces1.RedRook2>
